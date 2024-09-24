@@ -1,0 +1,44 @@
+.about {
+    /* background-image: linear-gradient(20deg, #ffec8b, #ffdab9, #9aff9a, #bbffff, #b5e2ff); */
+    background-color: #b5e2ff;
+    height: 100%;
+    padding: 50px;
+}
+
+.about_section {
+    display: block;
+    text-align: center;
+    justify-items: column;
+    align-items: center;
+    margin: 25px 60px 30px;
+}
+
+.about_section p {
+    margin: 10px;
+    padding: 10px;
+    border:  none;
+    border-radius: 10px;
+    height: 60px;
+    width: 60%;
+    display: inline-block;
+}
+
+.blue {
+    background-color: rgb(37, 37, 137);
+}
+
+.green {   
+    background-color: rgb(75, 196, 75);
+}
+
+.yellow {
+    background-color: goldenrod;
+}
+
+.pink {
+    background-color: rgb(245, 40, 201);
+}
+
+.purple {
+    background-color: blueviolet;
+}

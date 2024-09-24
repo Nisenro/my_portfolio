@@ -1,18 +1,88 @@
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: 0 100px;
+    height: 50rem;
 }
 
 .hero img {
-    margin-top: 100px;
-    width: 500px;
+    margin: 60px 100px 0 0;
+    width: 450px;
     border: 5px solid white;
     border-radius: 50%;
 }
 
-.hero h2 {
-    background-color: red;
-   width: 100%; 
-   font-size: 30px;
+.text_section {
+    padding: 20px 0 0 60px;
 }
+
+.text_section h2 {
+    /* width: 100%; */
+    font-size: 40px;
+}
+
+.name {
+    font-size: 3.5rem;
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slide-in 2s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.text_section .bio {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: aquamarine;
+    margin: 2px 0 20px 0;
+}
+
+.hero_action {
+    display: flex;
+    /* align-items: center; */
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.hero_link {
+    padding: 10px 25px;
+    border-radius: 50px;
+    background: linear-gradient(70deg, #f8bd33, #ff6a00 0.12%, #ee0979 );
+    cursor: pointer;
+}
+
+.hero_link:hover {
+    border: 2px solid white;
+}
+
+.hero_resume {
+    padding:  10px 25px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.hero_resume:hover {
+    background-color: aquamarine;
+    color: darkblue;
+    border: 2px solid #ee0979;
+}
+

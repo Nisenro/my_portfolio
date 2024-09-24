@@ -2,8 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: rgb(171, 255, 255); */
-    margin: 20px 170px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
+    width: 100%;
+    padding: 0 20px;
+    position: fixed;
     
     
 }
@@ -17,10 +21,11 @@
 }
 
 .nav_connect {
-    padding: 20px 30px;
+    padding: 10px 20px;
     border-radius: 50px;
-    background: linear-gradient(168deg, #e8dc9b, #0a8877 0.30%, #FF00FF);
+    background: linear-gradient(80deg, #f8bd33, #ff6a00 0.12%, #ee0979);
     cursor: pointer;
+    margin-right: 40px;
     font-size: 20px;
     color: #fff;
     transition: 0.5s;
